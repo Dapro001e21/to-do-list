@@ -1,0 +1,87 @@
+body{
+  margin: 10px;
+  margin: 0;
+}
+
+main{
+  margin: 10px;
+}
+
+.tasks, .groups-task{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.add-task{
+  width: 250px;
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.add-task input{
+  width: 150px;
+  margin: 5px;
+}
+
+.add-task textarea{
+  width: 95%;
+  height: 100px;
+}
+
+.add-task .item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-task .btn{
+  text-align: center;
+}
+
+.add-group-container{
+  margin-bottom: 10px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.nav .item{
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.nav .item:hover{
+  text-decoration: underline;
+}
+
+.group-search{
+  margin-top: 10px;
+}
+
+.group-search button{
+  margin-left: 10px;
+}
+
+.task-search{
+  margin-top: 10px;
+}
+
+.task-search button{
+  margin-left: 10px;
+}
+
+.task-search input{
+  min-width: 170px;
+}
+
+.add-group-panel .close-btn{
+  margin-left: 10px;
+}

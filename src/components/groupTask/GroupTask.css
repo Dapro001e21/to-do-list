@@ -1,0 +1,27 @@
+.group-container{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    word-break: break-all;
+    margin: 10px;
+    user-select: none;
+}
+
+.group-container .panel{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+
+.group-container .title{
+    font-size: 26px;
+    cursor: pointer;
+}
